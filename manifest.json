@@ -6,8 +6,7 @@
         "scripts": ["background.js"]
     },
     "permissions": [
-        "notifications",
-        "*://*.huluim.com/*"
+        "notifications"
     ],
-    "content_security_policy": "img-src 'self' data: http://*.huluim.com; script-src 'self'; object-src 'self'"
+    "content_security_policy": "img-src 'self' data: ; script-src 'self'; object-src 'self'"
 }
